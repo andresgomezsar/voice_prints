@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App Container */
+.app-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2rem;
+}
+
+.microphone-icon {
+  font-size: 2rem;
+}
+
+/* Metric Cards */
+.vocal-metrics-container {
+  width: 80%;
+  max-width: 1200px;
+}
+
+.metric-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.metric-card {
+  background: #1e1e1e;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.metric-card h2 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.metric-card p {
+  font-size: 1.1rem;
+  color: #aaa;
+}
+
+.trend-icon-up {
+  color: green;
+}
+
+.caution-icon {
+  color: yellow;
+}
+
+.waveform-icon {
+  color: lightblue;
+}
+
+.chart-container {
+  background-color: #1e1e1e;
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 900px;
+  margin-top: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.vocal-metrics-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.metric-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.metric-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 150px;
+}
+
+.metric-card h2 {
+  font-size: 2em;
+  margin: 0;
+  color: #333;
+}
+
+.metric-card p {
+  margin: 5px 0;
+  color: #777;
+}
+
+.trend-icon-up {
+  color: green;
+}
+
+.caution-icon {
+  color: orange;
+}
+
+.waveform-icon {
+  color: blue;
+}
