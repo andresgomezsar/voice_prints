@@ -1,12 +1,15 @@
-import React from 'react';
-import Metrics from './components/metrics';
+import React from "react";
+import MetricsDashboard from "./components/MetricsDashboard";
+import CanvasBackground from "./components/canvasbackground";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Vocal Metrics Dashboard</h1>
-      <Metrics />
+      <CanvasBackground />
+      <MetricsDashboard />
     </div>
+    
   );
 }
 
