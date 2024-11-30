@@ -82,28 +82,6 @@ Raw Audio → VAD → Speaker Diarization → Transcription → Analysis → Ins
     ```
     The backend will be available at [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
----
-
-## Repository Structure
-voice_prints/
-├── backend/
-│   ├── app/
-│   │   ├── api/                  # FastAPI endpoints
-│   │   ├── services/             # Business logic (e.g., VAD, metrics)
-│   ├── tests/                    # Placeholder for test scripts
-│   ├── data/                     # Temporary storage for audio
-│   ├── requirements.txt          # Backend dependencies
-│   ├── main.py                   # Backend entry point
-├── frontend/
-│   ├── src/
-│   │   ├── components/           # React components
-│   │   ├── App.js                # Main React app logic
-│   ├── public/                   # Static files
-│   ├── package.json              # Frontend dependencies
-├── README.md                     # Project documentation
-
----
-
 ## Privacy and Ethics
 
 Voice Prints is designed with privacy at its core:
