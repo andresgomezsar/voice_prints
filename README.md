@@ -132,4 +132,4 @@ Voice Prints is designed with privacy at its core:
 
 ## License
 
-This project is licensed under MIT License. See the LICENSE file for details.
+Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)
