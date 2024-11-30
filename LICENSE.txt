@@ -1,0 +1,11 @@
+## License
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**. 
+
+### Permissions
+- **Use and Adaptation**: You may share and adapt the material for non-commercial purposes.
+- **Attribution Required**: You must provide appropriate credit, a link to the license, and indicate if changes were made.
+
+### Restrictions
+- **No Commercial Use**: This work cannot be used for commercial purposes without explicit permission.
+
+For more details, see the [full license text](https://creativecommons.org/licenses/by-nc/4.0/legalcode).

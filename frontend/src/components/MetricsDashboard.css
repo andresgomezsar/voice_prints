@@ -1,0 +1,63 @@
+.dashboard-container {
+    background-color: #1c1e26;
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .metrics-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .metric-card {
+    background-color: #2a2d38;
+    padding: 15px 20px;
+    border-radius: 8px;
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .metric-value {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .metric-unit {
+    font-size: 16px;
+    color: #7ed987;
+  }
+  
+  .metric-label {
+    font-size: 14px;
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .metric-icon {
+    margin-left: 5px;
+  }
+  
+  .trend-icon {
+    color: #7ed987;
+  }
+  
+  .caution-icon {
+    color: #ffcc00;
+  }
+  
+  .waveform-icon {
+    color: #689ef7;
+  }
+  

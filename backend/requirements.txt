@@ -1,0 +1,30 @@
+# requirements.txt
+
+# Web Framework
+Flask==3.0.0
+pyngrok==7.0.5
+
+# Audio Processing
+torch==2.2.0
+torchaudio==2.2.0
+wave==0.0.2
+
+# ML/Voice Processing
+mlx-whisper==0.4.1
+textblob==0.17.1
+
+# VAD Dependencies
+pyannote.audio==3.1.1
+soundfile==0.12.1
+
+# Async Support
+asyncio==3.4.3
+
+# Development
+pytest==8.0.0
+black==24.1.1
+flake8==7.0.0
+mypy==1.8.0
+
+numpy==1.26.3
+pandas==2.2.0

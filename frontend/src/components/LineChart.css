@@ -1,0 +1,11 @@
+.line-chart {
+    background-color: #2a2d38;
+    height: 150px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+    font-size: 18px;
+  }
+  
